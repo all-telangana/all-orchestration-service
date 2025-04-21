@@ -1,6 +1,6 @@
 # Project Name - All orchestration service
 
-# cmd 
+# cmd -
 
 - start server - cmd - "start": "nodemon index.ts"
   .
