@@ -16,7 +16,7 @@ class virtualIdController {
             } else {
                 virtualIdService.generateId(username,(err: any, result: any) => {
                 if (err) {
-                    response.status(400).send(new HttpException(400, "Something went wrong"));
+                    response.status(400).send(new HttpException(400, `Something went wrong  ${err.message}`));
                 } else {
                     response.status(200).send(new HttpResponse(null, result, "Token generated", null));
                 }
