@@ -2,4 +2,4 @@
 
 # cmd -
 
-- start server - cmd - "start": "nodemon index.ts".
+- start server - cmd - "start": "nodemon index.ts"
